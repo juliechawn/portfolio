@@ -1,0 +1,126 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+}
+
+.julie {
+  height: 300px;
+}
+
+.hello-text {
+  font-size: 100px;
+  padding: 20px;
+  align-self: center;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 16px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#image-title-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(225, 225, 225, 0.6);
+  padding: 10px;
+  width: 100%;
+}
+
+.background-image{
+  background-image: url('https://i.imgur.com/kUwFHzU.jpg');
+  background-size: cover;
+}
+
+.name-title-div {
+  text-align: center;
+  align-self: center;
+}
+
+.name-div {
+  font-size: 64px;
+  padding-top: 20px;
+}
+
+.title-div {
+  font-size: 48px;
+  padding-bottom: 5px;
+  text-align: center;
+  align-self: center; 
+}
+
+.skills-div {
+  text-align: center;
+  align-self: center;
+  flex-wrap: wrap;
+  word-spacing: 10px;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-buttons {
+  text-align: center;
+  align-self: center;
+}
+
+#button {
+  width: 150px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+
+#button:hover{
+  background-color: rgb(128, 94, 92);
+  color: white;
+}
+
+#work {
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  justify-content: center;
+}
+
+#work-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#work-picture {
+}
+
+#work-blog {
+  padding: 50px;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  color: white;
+}
+
+.work-title {
+  font-size: 48px;
+  padding-top: 20px;
+}
+
+.work-subtitle {
+  font-size: 32px;
+  padding-bottom: 5px;
+  text-align: center;
+  align-self: center; 
+}
+
+.work-desc {
+  text-align: center;
+  align-self: center;
+  word-spacing: 10px;
+  padding-bottom: 20px;
+}
