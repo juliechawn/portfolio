@@ -27,7 +27,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(225, 225, 225, 0.7) !important;
+  background-color: rgba(225, 225, 225, 0.7) !important;
   padding: 10px;
   width: 100%;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 #work-overlay {
-  background-color: rgb(225, 225, 225, 0.9) !important;
+  background-color: rgba(225, 225, 225, 0.7) !important;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -166,7 +166,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(225, 225, 225, 0.7)  !important;
+  background-color:rgba(225, 225, 225, 0.7) !important;
   width: 100%;
 }
 
