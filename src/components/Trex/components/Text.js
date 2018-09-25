@@ -70,7 +70,7 @@ class Text extends React.Component {
             </div>
           </div>
         </div>
-        <div id="footer">
+        <div id="trex-footer">
           <div className="row no-gutters">
             <div className="col-12" id="input">
               <form onSubmit={this.handleSubmit}>

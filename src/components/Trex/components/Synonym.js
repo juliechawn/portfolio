@@ -1,5 +1,4 @@
 import React from 'react';
-import speechbubble from '../images/speechbubble.svg';
 
 class Synonym extends React.Component {
   constructor(props) {
@@ -25,7 +24,6 @@ class Synonym extends React.Component {
     }
     return (
       <div id="speech-area">
-        <img src={speechbubble} alt="speech-bubble" id="bubble" />
         {intro}
         {error}
         {synonyms}

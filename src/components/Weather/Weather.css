@@ -1,5 +1,15 @@
 .container {
+    /* max-width: 500px;  */
+    /* max-height: 667px; */
     background-color: white;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+#stats {
+    padding: 0;
+}
+
+input {
+    padding: 0;
 }

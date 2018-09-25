@@ -66,7 +66,7 @@ export default class cityEntries extends React.Component {
               id='city-input'
               value={searchName}
               onChange={this.handleCityInput}
-              placeholder="Enter city"
+              placeholder="Enter city name"
             />
             <div className="input-group-append">
               <button className="btn btn-outline-primary"

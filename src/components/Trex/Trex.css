@@ -1,7 +1,3 @@
-/* display: flex;
-justify-content: center;
-align-items: center; */
-  
   .app {
     background-color:white;
     max-width: 375px; 
@@ -44,21 +40,14 @@ align-items: center; */
   
   #speech-area{
     text-align: center;
+    background-image: url('./images/speechbubble.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 190px;
   }
-  
-  #bubble {
-    position: absolute;
-    opacity: 0.8;
-    width: 335px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 5%;
-  }
-  
+
   #text {
-    position: relative;
-    padding-top: 5%;
+    padding-top: 30px;
     padding-left: 10%;
     padding-right: 10%;
     height: 8rem;

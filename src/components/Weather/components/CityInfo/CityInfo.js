@@ -13,32 +13,32 @@ export default class CityInfo extends React.Component {
           <p><small>Lat/Long: <span>{cityLat}</span>,<span>{cityLong}</span></small></p>
           <hr />
           <div className='row'>
-            <div className='col'>
-              <div className='col'><small><b>Temp(F)</b></small></div>
-              <div className='col text-success' >{cityTemp}F</div>
+            <div className='col' id="stats">
+              <div className='col' id="stats"><small><b>Temp(F)</b></small></div>
+              <div className='col text-success' id="stats">{cityTemp}F</div>
             </div>
-            <div className='col'>
-              <div className='col'><small><b>Pressure</b></small></div>
-              <div className='col text-success'>{cityPressure}</div>
+            <div className='col' id="stats">
+              <div className='col' id="stats"><small><b>Pressure</b></small></div>
+              <div className='col text-success' id="stats">{cityPressure}</div>
             </div>
-            <div className='col'>
-              <div className='col'><small><b>Humidity</b></small></div>
-              <div className='col text-success'>{cityHumidity}%</div>
+            <div className='col' id="stats">
+              <div className='col' id="stats"><small><b>Humidity</b></small></div>
+              <div className='col text-success' id="stats">{cityHumidity}%</div>
             </div>
           </div>
           <br />
           <div className='row'>
-            <div className='col'>
-              <div className='col'><small><b>Low Temp(F)</b></small></div>
-              <div className='col text-success'>{cityLowtemp}F</div>
+            <div className='col' id="stats">
+              <div className='col' id="stats"><small><b>Low Temp(F)</b></small></div>
+              <div className='col text-success' id="stats">{cityLowtemp}F</div>
             </div>
-            <div className='col'>
-              <div className='col'><small><b>High Temp(F)</b></small></div>
-              <div className='col text-success'>{cityHightemp}F</div>
+            <div className='col' id="stats">
+              <div className='col' id="stats"><small><b>High Temp(F)</b></small></div>
+              <div className='col text-success' id="stats">{cityHightemp}F</div>
             </div>
-            <div className='col'>
-              <div className='col'><small><b>Wind Speed</b></small></div>
-              <div className='col text-success'>{cityWindspeed}mph</div>
+            <div className='col' id="stats">
+              <div className='col' id="stats"><small><b>Wind Speed</b></small></div>
+              <div className='col text-success' id="stats">{cityWindspeed}mph</div>
             </div>
           </div>
         </div>
